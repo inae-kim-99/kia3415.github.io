@@ -11,14 +11,14 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: 안녕하세요.
-    text: asdfasdf
+    title: Welcome to our Studio!
+    text: It's Nice To Meet You
     button: Tell Me More
     buttonlink: "#services"
 
   services:
-    title: "About"
-    text: "소개"
+    title: "Services"
+    text: "Lorem ipsum"
     section: services
     list:
       - title: "E-Commerce"
@@ -32,46 +32,40 @@ en: &DEFAULT_EN
         icon: fab fa-markdown
 
   portfolio:
-    title: "Project"
-    text: "프로젝트"
+    title: "Portfolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
     closebutton: "Close Project"
 
   timeline:
-    title: "Activity"
-    text: "활동"
+    title: "About"
+    text: "Lorem ipsum timeline"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "건국대학교<br>소프트웨어학과 학생회 활동"
-        year: "2018 - 2021"
-        desc: "**2018.03 - 2019.02**<br>
-        소프트웨어학과 학생회 활동<br>
-        **2019.03 - 2020.02**<br>
-        소프트웨어학과 2학년 대표<br>
-        **2020.03 - 2021.02**<br>
-        컴퓨터공학부 부학생회장"
+      - title: "Our Humble Beginnings"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "공과대학 프로그래밍 동아리<br>비빔밥 운영&스터디"
-        year: "2019 - 활동중"
-        desc:  "**2019.03 - 2021.02**<br>
-        동아리 간부 서기로 동아리 운영<br>
-        **2019.03 - 2019.06**<br>
-        C프로그래밍 스터디 튜터 활동<br>
-        **2020.07 - 진행중**<br>
-        알고리즘 문제 풀이 스터디 참여"
+      - title: "An Agency is Born"
+        year: "March 2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "SW 장학 활동"
-        year: "2019 - 진행중"
-        desc: "**2019.03 - 2019.06**<br>
-        C프로그래밍 강의 튜터 활동<br>
-        **2020.03 - 진행중**<br>
-        SW가치확산 고등학생 대상 멘토링 활동"
+      - title: "Jekyll Theme is created"
+        year: "2019"
+        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+        image: assets/img/timeline/3.jpg
         alt: image alt text
-        # align: right
+      - title: "Title"
+        year: "2009-2011"
+        desc: "Your description here, **Markdown** is fully supported."
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
     end: "Be Part <br> of Our <br> Story!"
 
   about:
