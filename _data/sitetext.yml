@@ -12,13 +12,13 @@
 en: &DEFAULT_EN
   header:
     title: Hi,
-    text: It's Nice To Meet You
-    button: Tell Me More
+    text: I'm INAE,<br>Android Developer.
+    button: About me
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "About"
+    text: "저는 이런 사람이에요"
     section: services
     list:
       - title: "E-Commerce"
@@ -32,31 +32,44 @@ en: &DEFAULT_EN
         icon: fab fa-markdown
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Project"
+    text: "제가 공부해 온 과정이에요."
     section: portfolio
     closebutton: "Close Project"
 
   timeline:
-    title: "About"
-    text: "Lorem ipsum timeline"
+    title: "Activity"
+    text: "저는 이런 활동들을 해오고 있어요."
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "건국대학교<br>소프트웨어학과 학생회 활동"
+        year: "2018 - 2021"
+        desc:  "**1학년**<br>
+        소프트웨어학과 학생회 활동<br>
+        **2학년**<br>
+        소프트웨어학과 2학년 대표<br>
+        **3학년**<br>
+        컴퓨터공학부 부학생회장"
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "공과대학 동아리 비빔밥<br>운영&스터디"
+        year: "2019 - 활동중"
+        desc:  "**2019.03 - 2021.02**<br>
+        동아리 간부 서기로 동아리 운영<br>
+        **2019.03 - 2019.06**<br>
+        C프로그래밍 스터디 튜터<br>
+        **2020.07 - 활동중**<br>
+        알고리즘 문제 풀이 스터디 '알터디' 활동"
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      - title: "SW 장학 활동"
+        year: "2019 - 활동중"
+        desc:  "**2019.03 - 2019.06**<br>
+        C프로그래밍 강의 튜터<br>
+        **2020.03 - 활동중**<br>
+        'SW가치확산' 고등학생 대상 멘토링 활동"
         image: assets/img/timeline/3.jpg
         alt: image alt text
       - title: "Title"
