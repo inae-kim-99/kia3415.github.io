@@ -7,7 +7,7 @@ caption: #what displays in the portfolio grid:
 #what displays when the item is clicked:
 title: Show Time !
 subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: /assets/img/portfolio/04-thumbnail.jpg #main image, can be a link or a file in assets/img/portfolio
+image: /assets/img/portfolio/01-thumbnail.jpg #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 ---
 

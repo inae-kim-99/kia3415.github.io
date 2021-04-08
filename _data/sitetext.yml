@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Hi,
+    title: Hi
     text: I'm INAE,<br>Android Developer.
     button: About me
     buttonlink: "#services"
