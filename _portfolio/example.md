@@ -2,7 +2,7 @@
 caption: #what displays in the portfolio grid:
   title: Show Time !
   subtitle: 시간표&일정관리&학점계산<br>관리
-  thumbnail: /assets/img/portfolio/04-thumbnail.jpg
+  thumbnail: /assets/img/portfolio/01-thumbnail.jpg
 
 #what displays when the item is clicked:
 title: Show Time !
