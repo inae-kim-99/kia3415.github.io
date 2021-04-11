@@ -10,7 +10,7 @@
     left: 40px;
     width: 2px;
     margin-left: -1.5px;
-    content: '';
+    content: "";
     background-color: $gray-200;
   }
   > li {
@@ -20,7 +20,7 @@
     &:after,
     &:before {
       display: table;
-      content: ' ';
+      content: " ";
     }
     &:after {
       clear: both;
@@ -52,10 +52,10 @@
       height: 80px;
       margin-left: 0;
       text-align: center;
-      color: $white;
+      color: $primary;
       border: 7px solid $gray-200;
       border-radius: 100%;
-      background-color: $primary;
+      background-color: white;
       h4 {
         font-size: 10px;
         line-height: 14px;
@@ -89,24 +89,25 @@
       color: inherit;
       &.subheading {
         text-transform: none;
+        margin-bottom: 10px;
       }
     }
   }
   .timeline-body {
-     > ul,
+    > ul,
     > p {
       margin-bottom: 0;
     }
   }
 }
-@media(min-width:768px) {
+@media (min-width: 768px) {
   .timeline {
     &:before {
       left: 50%;
     }
     > li {
       min-height: 100px;
-      margin-bottom: 100px;
+      margin-bottom: 60px;
       .timeline-panel {
         float: left;
         width: 41%;
@@ -132,7 +133,7 @@
     }
   }
 }
-@media(min-width:992px) {
+@media (min-width: 992px) {
   .timeline {
     > li {
       min-height: 150px;
@@ -155,7 +156,7 @@
     }
   }
 }
-@media(min-width:1200px) {
+@media (min-width: 1200px) {
   .timeline {
     > li {
       min-height: 170px;

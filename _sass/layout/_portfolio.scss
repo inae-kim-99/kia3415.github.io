@@ -4,12 +4,14 @@
     right: 0;
     margin: 0 0 15px;
     .portfolio-link {
+      background-color: white;
       position: relative;
       display: block;
       max-width: 400px;
       margin: 0 auto;
       cursor: pointer;
       .portfolio-hover {
+        border-radius: 10px;
         position: absolute;
         width: 100%;
         height: 100%;
@@ -42,6 +44,7 @@
     }
     .portfolio-caption {
       max-width: 400px;
+      border-radius: 10px;
       margin: 0 auto;
       padding: 25px;
       text-align: center;
@@ -72,22 +75,22 @@
 
 .portfolio-modal {
   .modal-dialog {
-    margin: 1rem;
+    margin: 5rem;
     max-width: 100vw;
   }
   .modal-content {
     padding: 100px 0;
-    text-align: center;
+    text-align: left;
     h2 {
       font-size: 3em;
       margin-bottom: 15px;
     }
     p {
-      margin-bottom: 30px;
+      // margin-bottom: 30px;
     }
     p.item-intro {
-      font-size: 16px;
-      font-style: italic;
+      font-size: 20px;
+      font-style: normal;
       margin: 20px 0 30px;
       @include serif-font;
     }
@@ -100,6 +103,7 @@
     }
     button {
       cursor: pointer;
+      margin: auto;
     }
   }
   .close-modal {
