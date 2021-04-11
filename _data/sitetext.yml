@@ -11,25 +11,25 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Hi
-    text: I'm INAE,<br>Android Developer.
+    title: 
+    text: Developer,<br>Inae's Portfolio
     button: About me
     buttonlink: "#services"
 
   services:
-    title: "About"
+    title: "About Me"
     text: "저는 이런 사람이에요"
     section: services
+    image: /assets/img/about/inae.jpg
+    name: "김인애"
+    subtext: "1999.12.21 (23세)<br>건국대학교 컴퓨터공학부 재학<br>(2022.02 졸업 예정)"
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "김인애"
+        desc: "안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요."
+        image: fas fa-laptop #find more at https://fontawesome.com/icons
       - title: "Responsive Design"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
 
   portfolio:
     title: "Project"

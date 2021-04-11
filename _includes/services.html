@@ -10,20 +10,46 @@
 		  {% endif %}
         </div>
       </div>
-	  
-      <div class="row text-center">
-	  {% for service in site.data.sitetext[site.locale].services.list %}
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">{{ service.title | markdownify }}</h4>
-          {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
+      
+      <div class="intro-parent">
+        <div class="introduce custom-col-3">
+            <img class="img-inae" src="{{site.data.sitetext[site.locale].services.image }}" alt="" width="315px" height="405px">
         </div>
-	  {% endfor %}
+        
+
+        <div class="custom-intro-parent">
+          <div class="custom-intro-item profile">
+            <div class="item-title">PROFILE</div>
+            <div class="item-subtitle">이름</div>
+            <div class="item-content">김인애</div>
+            <div class="item-subtitle">생년월일</div>
+            <div class="item-content">1999. 12. 21 (23세)</div>
+            <div class="item-subtitle">학력</div>
+            <div class="item-content">건국대학교 컴퓨터공학부 재학 (2022.02 졸업 예정)</div>
+          </div>
+          <div class="custom-intro-item skill">
+            <div class="item-title">SKILLS</div>
+            <div class="item-content">C++, JAVA, Kotlin, Python</div>
+          </div>
+          <!-- <div class="custom-intro-item">
+            <div class="item-title">E-Mail</div>
+            <div class="item-content">kia3415@gmail.com</div>
+          </div> -->
+        </div>
+        <!-- <div class="text-center sub-introduce">
+        {% for service in site.data.sitetext[site.locale].services.list %}
+          <div class="custom-col-3">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack text-primary"></i>
+              <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">{{ service.title | markdownify }}</h4>
+            {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
+          </div>
+        {% endfor %}
+        </div> -->
       </div>
-	  
+      
     </div>
   </section>
 <!-- End Services -->
